@@ -184,7 +184,7 @@ body {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 3240px;
+    height: 4313px;
     z-index: 0;
     pointer-events: none;
     background: linear-gradient(to right, rgba(26,26,26,1) 0%, rgba(26,26,26,0.1) 80%, rgba(26,26,26,0) 100%), url('gradient.png') left top/cover no-repeat;
@@ -371,6 +371,7 @@ section {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     transition: transform 0.3s ease;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .project-card:hover {
