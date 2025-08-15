@@ -1,3 +1,23 @@
+/* ======== GITHUB BUTTON ======== */
+.github-btn {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    background: #fff;
+    color: #232a34;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: background 0.2s, color 0.2s;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.github-btn:hover {
+    background: var(--accent-color);
+    color: #fff;
+}
 /* ======== CERTIFICATIONS SECTION ======== */
 .certifications-container {
     max-width: 800px;
