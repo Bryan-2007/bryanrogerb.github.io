@@ -1,3 +1,17 @@
+/* ======== CERTIFICATIONS SECTION ======== */
+.certifications-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.certification-item {
+    background-color: var(--primary-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--accent-color);
+}
 /* ======== ZIGZAG INTERESTS ROWS ======== */
 .zigzag-list {
     display: flex;
