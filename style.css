@@ -26,6 +26,24 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     line-height: 1.6;
+    position: relative;
+}
+
+.fade-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 300px;
+    z-index: 0;
+    pointer-events: none;
+    background: linear-gradient(to right, rgba(26,26,26,1) 0%, rgba(26,26,26,0.1) 80%, rgba(26,26,26,0) 100%), url('images/fade-bg.png') left top/cover no-repeat;
+    opacity: 0.7;
+}
+
+main, header, .hero-section {
+    position: relative;
+    z-index: 1;
 }
 
 /* ======== UTILITY & REUSABLE STYLES ======== */
