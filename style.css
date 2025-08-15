@@ -58,12 +58,6 @@
         align-items: flex-start;
         padding: 1rem 1rem;
     }
-    .nav-menu {
-        flex-direction: column;
-        width: 100%;
-        gap: 0.5rem;
-        margin-top: 0.5rem;
-    }
     .nav-item {
         width: 100%;
     }
