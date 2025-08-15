@@ -1,3 +1,50 @@
+/* ======== HAMBURGER MENU ======== */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 101;
+}
+.hamburger span {
+    display: block;
+    width: 28px;
+    height: 4px;
+    margin: 4px 0;
+    background: #fff;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+@media (max-width: 700px) {
+    .hamburger {
+        display: flex;
+    }
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+        background: rgba(26,26,26,0.98);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        padding: 1rem 0;
+        z-index: 100;
+    }
+    .nav-menu.open {
+        display: flex;
+    }
+    .navbar {
+        position: relative;
+    }
+}
 @media (max-width: 700px) {
     .header {
         position: static;
