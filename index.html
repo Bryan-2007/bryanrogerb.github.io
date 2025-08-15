@@ -3,51 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Bryan Roger B | Engineering Graduate</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <header>
-        <nav>
-            <h1>Your Name</h1>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="nav-logo">BRYAN ROGER B</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#accomplishments" class="nav-link">Accomplishments</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero -->
-    <section class="hero">
-        <h2>Hello, I’m <span>Your Name</span></h2>
-        <p>Web Developer | Designer | Tech Enthusiast</p>
-    </section>
+    <main>
 
-    <!-- About -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write a short introduction about yourself here...</p>
-    </section>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <img src="profile.jpg" alt="Bryan Roger B" class="profile-picture">
+                <h1>BRYAN ROGER B</h1>
+                <p>Engineering Graduate</p>
+                <a href="resume.pdf" class="cta-button" target="_blank">View Resume</a>
+            </div>
+        </section>
 
-    <!-- Projects -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Title</h3>
-            <p>Description of your project...</p>
-        </div>
-    </section>
+        <section id="accomplishments" class="accomplishments-section">
+            <h2>Accomplishments</h2>
+            <div class="accomplishments-container">
+                <div class="accomplishment-item">
+                    <h3>Contest Winner - CodeFest 2024</h3>
+                    <p>Achieved first place in a university-level coding competition.</p>
+                </div>
+                <div class="accomplishment-item">
+                    <h3>Certified Cloud Practitioner</h3>
+                    <p>Earned the AWS Certified Cloud Practitioner certification.</p>
+                </div>
+                </div>
+        </section>
 
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-    </section>
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1 Screenshot" class="project-image">
+                    <h3>Project Title 1</h3>
+                    <p class="tech-list">HTML, CSS, JavaScript</p>
+                    <a href="#" class="github-link" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Project 2 Screenshot" class="project-image">
+                    <h3>Project Title 2</h3>
+                    <p class="tech-list">Python, Flask</p>
+                    <a href="#" class="github-link" target="_blank">View on GitHub</a>
+                </div>
+                </div>
+        </section>
 
-    <footer>
-        <p>© 2025 Your Name</p>
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out! I'm open to new opportunities and collaborations.</p>
+            <div class="contact-info">
+                <a href="mailto:youremail@example.com" class="contact-link">youremail@example.com</a>
+                <a href="https://www.linkedin.com/in/yourprofile" class="contact-link" target="_blank">LinkedIn Profile</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Bryan Roger B. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
