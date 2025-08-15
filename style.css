@@ -1,3 +1,122 @@
+/* ======== ZIGZAG INTERESTS ROWS ======== */
+.zigzag-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+.zigzag-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+.zigzag-box {
+    padding: 1.2rem 2rem;
+    background: #232a34;
+    color: #fff;
+    border-radius: 1.2rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+    font-size: 1.15rem;
+    min-width: 220px;
+    max-width: 350px;
+    width: fit-content;
+    position: relative;
+}
+.zigzag-box.left {
+    align-self: flex-start;
+}
+.zigzag-box.right {
+    align-self: flex-end;
+}
+/* ======== ZIGZAG INTERESTS BOXES ======== */
+.zigzag-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.zigzag-box {
+    padding: 1.2rem 2rem;
+    background: #232a34;
+    color: #fff;
+    border-radius: 1.2rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+    font-size: 1.15rem;
+    max-width: 350px;
+    width: fit-content;
+    position: relative;
+}
+.zigzag-box.left {
+    align-self: flex-start;
+    margin-left: 0;
+}
+.zigzag-box.right {
+    align-self: flex-end;
+    margin-right: 0;
+}
+/* ======== INTERESTS SECTION ======== */
+.interests-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.cloud-title {
+    background: #b5c1cc;
+    border-radius: 25px 25px 30px 30px/30px 30px 40px 40px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    padding: 0.7rem 1.5rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.cloud-title h2 {
+    color: #00aaff;
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.lightning-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1.5rem;
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+}
+.lightning-list li {
+    font-size: 1.2rem;
+    margin: 1.2rem 0 0.7rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+.lightning-svg {
+    color: #FFD700;
+    font-size: 2rem;
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+    vertical-align: middle;
+}
+.interests-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+.interests-section li {
+    font-size: 1.2rem;
+    margin: 0.7rem 0;
+    display: block;
+    text-align: left;
+}
 /* ======== GOOGLE FONTS (OPTIONAL) ======== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
@@ -34,10 +153,10 @@ body {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 300px;
+    height: 3240px;
     z-index: 0;
     pointer-events: none;
-    background: linear-gradient(to right, rgba(26,26,26,1) 0%, rgba(26,26,26,0.1) 80%, rgba(26,26,26,0) 100%), url('lap-background.png') left top/cover no-repeat;
+    background: linear-gradient(to right, rgba(26,26,26,1) 0%, rgba(26,26,26,0.1) 80%, rgba(26,26,26,0) 100%), url('gradient.png') left top/cover no-repeat;
     opacity: 0.7;
 }
 
@@ -88,6 +207,12 @@ section {
     text-decoration: none;
     transition: background 0.2s;
     cursor: pointer;
+}
+.certificate-btn.small {
+    margin-top: 0;
+    padding: 0.4rem 1.1rem;
+    font-size: 0.95rem;
+    border-radius: 1.2rem;
 }
 .certificate-btn:hover {
     background: var(--hover-color);
